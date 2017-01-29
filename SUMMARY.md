@@ -6,8 +6,7 @@ This is the summary of my book.
 	* [Chapter 01. Introduction 介绍](docs/Chapter 01. Introduction 介绍.md)
 	* [Chapter 02. Overview 总览](docs/Chapter 02. Overview 总览.md)
 II. 与已有构建协作
-	* [Chapter 03. Tutorials 教程](docs/Chapter 03. Tutorials 教程.md)
-	* [Chapter 04. Installing Gradle 安装](docs/Chapter 04. Installing Gradle 安装.md)
+	* [Chapter 03. Installing Gradle 安装](docs/Chapter 03. Installing Gradle 安装.md)
 	* [Chapter 05. Troubleshooting 问题解决](docs/Chapter 05. Troubleshooting 问题解决.md)
 	* [Chapter 06. Build Script Basics 构建脚本的基础知识](docs/Chapter 06. Build Script Basics 构建脚本的基础知识.md)
 	* [Chapter 07. Java Quickstart 快速开始 Java](docs/Chapter 07. Java Quickstart 快速开始 Java.md)
