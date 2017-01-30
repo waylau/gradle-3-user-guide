@@ -16,8 +16,9 @@ Gradle Wrapper（以下简称“Wrapper”）解决了这两个问题，是开�
 
 每个 Wrapper 都绑定到一个特定版本的 Gradle，所以当你第一次在给定 Gradle 版本下运行上面的命令之一时，它将下载相应的 Gradle 发布包，并使用它来执行构建。
  
+>IDE
 
-当通过其  Wrapper 导入 Gradle 项目时，IDE 可能会要求使用 Gradle “all”发布包。这是完全正常的，并帮助 IDE 提供构建文件代码补全。
+>当通过其  Wrapper 导入 Gradle 项目时，IDE 可能会要求使用 Gradle “all”发布包。这是完全正常的，并帮助 IDE 提供构建文件代码补全。
 
 这不仅意味着您不必手动安装 Gradle，而且您还必须使用该版本所设计的 Gradle 版本。这使得您的历史构建更可靠。只要在本用户指南、Stack Overflow 等任何地方看到以`gradle ...`开头的命令行时，就是在使用上面的相应语法。
 
@@ -99,6 +100,10 @@ simple/
 ## 5.4. Authenticated Gradle distribution download  验证Gradle分发下载
 
 Gradle Wrapper可以使 用HTTP 基本认证从服务器下载 Gradle 发行版。 这使您能够在专用受保护的服务器上托管 Gradle 分发。 您可以根据使用情况以两种不同的方式指定用户名和密码：作为系统属性或直接嵌入在 distributionUrl 中。 系统属性中的凭据优先于嵌入在 distributionUrl 中的凭证。
+
+>安全警告
+
+>HTTP基本身份验证应仅与HTTPS URL一起使用，而不是纯HTTP身份验证。 使用基本身份验证，用户凭据以明文形式发送。
 
 使用系统属性可以在用户主目录中的`.gradle/gradle.properties`文件中完成，或者通过其他方式完成，请参见第12.1节“通过gradle.properties配置构建环境”。
 
