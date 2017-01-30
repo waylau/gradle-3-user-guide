@@ -7,13 +7,13 @@ This is the summary of my book.
 	* [Chapter 02. Overview 总览](docs/Chapter 02. Overview 总览.md)
 II. 与已有构建协作
 	* [Chapter 03. Installing Gradle 安装](docs/Chapter 03. Installing Gradle 安装.md)
+	* [Chapter 04. Using the Gradle Command-Line 使用 Gradle 命令行](docs/Chapter 04. Using the Gradle Command-Line 使用 Gradle 命令行.md)
 	* [Chapter 05. Troubleshooting 问题解决](docs/Chapter 05. Troubleshooting 问题解决.md)
 	* [Chapter 06. Build Script Basics 构建脚本的基础知识](docs/Chapter 06. Build Script Basics 构建脚本的基础知识.md)
 	* [Chapter 07. Java Quickstart 快速开始 Java](docs/Chapter 07. Java Quickstart 快速开始 Java.md)
 	* [Chapter 08. Dependency Management Basics 依赖管理的基础知识](docs/Chapter 08. Dependency Management Basics 依赖管理的基础知识.md)
 	* [Chapter 09. Groovy Quickstart 快速开始 Groovy](docs/Chapter 09. Groovy Quickstart 快速开始 Groovy.md)
 	* [Chapter 10. Web Application Quickstart 快速开始 Web 应用](docs/Chapter 10. Web Application Quickstart 快速开始 Web 应用.md)
-	* [Chapter 11. Using the Gradle Command-Line 使用 Gradle 命令行](docs/Chapter 11. Using the Gradle Command-Line 使用 Gradle 命令行.md)
 	* [Chapter 12. Using the Gradle Graphical User Interface 使用 Gradle 图形化用户界面](docs/Chapter 12. Using the Gradle Graphical User Interface 使用 Gradle 图形化用户界面.md)
 III. 编写 Gradle 构建脚本
 	* [Chapter 13. Writing Build Scripts 编写构建脚本](docs/Chapter 13. Writing Build Scripts 编写构建脚本.md)
